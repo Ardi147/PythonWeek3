@@ -1,5 +1,6 @@
 # 1. NUMPY
 - NumPy is a module that aims to make calculations in Python lighter.
+
 - NumPy (Numerical Python): to form and manipulate arrays. NumPy focuses on scientific computing.
 
 # - Import Numpy
@@ -10,12 +11,16 @@ print(np.version)
 
 # - Creating a Numpy Array
 arr = np.array([1, 2, 3, 4, 5])
+
 print(arr)
 
 # - Use a Tuple to Create a Numpy Array
 import numpy as np
+
 arr = np.array((1, 2, 3, 4, 5))
+
 print(arr)
+
 print(type(arr))
 
 # - Dimensions in Array
@@ -23,12 +28,16 @@ A dimension in arrays is one level of array depth (nested arrays).
 
 # - 0 Dimensions Array
 import numpy as np
+
 arr = np.array(42)
+
 print(arr)
 
 # - 1 Dimension Array
 import numpy as np
+
 arr = np.array([1, 2, 3, 4, 5])
+
 print(arr)
 
 # - 2 Dimensions Array Containing 2 Array
