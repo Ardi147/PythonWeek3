@@ -24,7 +24,7 @@ print(arr)
 print(type(arr))
 
 # - Dimensions in Array
-A dimension in arrays is one level of array depth (nested arrays).
+- A dimension in arrays is one level of array depth (nested arrays).
 
 # - 0 Dimensions Array
 import numpy as np
@@ -126,7 +126,7 @@ Pandas (Python for Data Analysis): for data manipulation, data preparation, and 
 Pandas has two objects, namely series and data frames
 
 # 2.1 Object Series
-Object Series has one data dimension, it does not have column names because it only has one column. And it has an index.
+- Object Series has one data dimension, it does not have column names because it only has one column. And it has an index.
 
 data = [0.25, 0.50, 0.75, 1]
 
@@ -141,7 +141,7 @@ data
 data.values
 
 # - Displays Index From Series
-The index is in the form of a range, where the start point is inclusive of the range and the stop point is exclusive of the range.
+- The index is in the form of a range, where the start point is inclusive of the range and the stop point is exclusive of the range.
 
 data.index
 
@@ -155,19 +155,19 @@ The implicit index is the default index.
 
 data['a']
 
-we can define the index, this is called an explicit index, namely a defined index.
+- we can define the index, this is called an explicit index, namely a defined index.
 
-when defining indexes, the number of indexes must be equal to the number of data.
+- when defining indexes, the number of indexes must be equal to the number of data.
 
 data[3]
 
 # - Explicit Index
-This is data selection.
+- This is data selection.
 
-Even though we have created an explicit index, we can still call the implicit index.
+- Even though we have created an explicit index, we can still call the implicit index.
 
 
-When the implicit index and explicit index are the same, when we call the data, it will only duplicate the explicit index.
+- When the implicit index and explicit index are the same, when we call the data, it will only duplicate the explicit index.
 
 data_2 = pd.Series([0.25, 0.50, 0.75, 1], index=[2,5,3,7])
 
@@ -192,7 +192,7 @@ data[1:2] # indeks implisit
 data_2[2:3] #indeks implisit : slicing
 
 # 2.2 Loc an Iloc
-Loc is for calling its explicit index.
+- Loc is for calling its explicit index.
 
 data_2.loc[3] #selecting indeks eksplisit
 
@@ -218,7 +218,7 @@ populasi.loc['Depok']
 populasi.iloc[2]
 
 # 2.3 Data Frame
-Data Frame is a collection of series, with at least one series.
+- Data Frame is a collection of series, with at least one series.
 
 daerah = pd.DataFrame({'pop':populasi, 'luas daerah':luas})
 
@@ -249,7 +249,7 @@ df.columns
 df.index
 
 # - Displays Information From Columns in The From of Number
--df.describe()
+df.describe()
 
 # - Displays The Sum Of Not Null From Head
 df.notnull().sum()
