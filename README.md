@@ -1,6 +1,6 @@
 # 1. NUMPY
-NumPy is a module that aims to make calculations in Python lighter.
-NumPy (Numerical Python): to form and manipulate arrays. NumPy focuses on scientific computing.
+- NumPy is a module that aims to make calculations in Python lighter.
+- NumPy (Numerical Python): to form and manipulate arrays. NumPy focuses on scientific computing.
 
 # - Import Numpy
 import numpy as np
